@@ -111,7 +111,7 @@ impl DualSense {
                 Self::write(&device.lock().unwrap(), &output_cache.lock().unwrap());
                 *output_cache_changed.lock().unwrap() = false;
             }
-            sleep(Duration::from_millis(50));
+            // sleep(Duration::from_millis(50));
         })
     }
 
