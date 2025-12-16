@@ -11,7 +11,7 @@ exclude = [ ".vscode/*" ]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-hidapi = "2.4.1"
+hidapi = "2.6.3"
 
 [lib]
 name = "dualsense_rs"
